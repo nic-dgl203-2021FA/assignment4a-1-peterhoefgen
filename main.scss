@@ -10,5 +10,6 @@ $font-weights: (
 
 body {
     background: $primary-color;
+    color: $text-color;
     font-weight: map-get($font-weights, bold);
 }
