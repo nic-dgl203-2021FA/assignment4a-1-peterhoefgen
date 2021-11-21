@@ -10,4 +10,7 @@ body {
 .main .main_paragraph {
   font-weight: 700;
 }
+.main .main_paragraph:hover {
+  color: pink;
+}
 /*# sourceMappingURL=main.css.map */
