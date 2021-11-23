@@ -44,6 +44,10 @@ body {
 
     #{&}_paragraph2 {
         @extend .main_paragraph1;
+
+        &:hover {
+            color: $accent-color;
+        }
     }
 
     @include mobile{
