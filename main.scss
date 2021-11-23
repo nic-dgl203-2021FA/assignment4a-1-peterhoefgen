@@ -42,6 +42,9 @@ body {
         }
     }
 
+    @include mobile{
+        flex-direction: column;
+    }
 }
 
 .light {
