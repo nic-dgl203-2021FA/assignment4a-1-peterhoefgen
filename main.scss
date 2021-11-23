@@ -39,5 +39,5 @@ body {
 }
 
 .light {
-    @include theme($light-theme: true);
+    @include theme($light-theme: false);
 }
